@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hard Woods</title>
+    <link
+      rel="icon"
+      type="image"
+      href="img/logo/gip-justin_goyvaerts-brainstorm_huis_stijl_color-logo-15.png"
+    />
+    <link rel="stylesheet" href="css/main-style.css" />
+
+    <link rel="stylesheet" href="css/portfolio-style.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet" />
+    <link
+      href="https://fonts.cdnfonts.com/css/forma-djr-banner"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+      integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=="
+      crossorigin="anonymous"
+    />
+
+  </head>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      ><i class="fas fa-xmark"></i
+    ></a>
+    <br />
+    <a class="shop-button" href="shop.html">Shop</a>
+    <br />
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <br />
+
+    <br />
+    <a href="https://www.instagram.com/officialhardwoods/"
+      ><i class="fab fa-instagram social"></i
+    ></a>
+  </div>
+  <body>
+    <div id="navbar" class="hidden"></div>
+    <header id="topnav">
+      <a href="#" class="logo">
+        <img
+          src="img/logo/gip-justin_goyvaerts-brainstorm_huis_stijl_logo-text-white.png"
+          alt=""
+          id="logo"
+      /></a>
+      <nav id="header">
+        <ul>
+          <li>
+            <button class="openbtn" onclick="openNav()">
+              <i class="fas fa-bars"></i>
+            </button>
+          </li>
+          <li>
+            <a href=""> <i class="fas fa-user"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-bookmark"></i></a>
+          </li>
+          <div id="search">
+            <i class="fas fa-magnifying-glass"></i
+            ><input type="text" id="search-input" placeholder="Search" />
+            <ul id="search-results"></ul>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="splash" class="carousel-section">
+      <div class="carousel-container">
+        <div class="carousel">
+          <img src="img/fotos/Boom.jpg" alt="" />
+          <img src="img/fotos/Markabo 1.jpg" alt="" />
+          <img src="img/fotos/Meting.jpg" />
+          <img src="img/fotos/Zaagsel.jpg" />
+          <img src="img/fotos/Picnic 1.jpg" />
+          <!-- Add more images as needed -->
+        </div>
+      </div>
+      <article class="content">
+        <div class="splash-txt">
+          <h1>Augment Your Home</h1>
+          <p>
+            Beautiful, sustainable furniture built to last. From modern to
+            traditional, reflecting your unique style.
+          </p>
+          <span><a href="shop.html">Discover Our Catalog</a></span>
+        </div>
+      </article>
+
+    </section>
+    <div class="more"><p>Read More</p> <i class="fas fa-angle-down"></i></div>
+
+    <section id="about">
+      <article>
+        <div class="about-img">
+          <img src="img/fotos/Boom.jpg" alt="" class="img-1" />
+          <img src="img/fotos/Hamer.jpg" alt="" class="img-2" />
+        </div>
+        <div class="about-txt">
+          <h1>Our Mission</h1>
+          <p>
+            By choosing our furniture, you can rest assured that you are not
+            only investing in a piece that will last for years to come, but also
+            doing your part to support sustainable practices. And that’s not
+            all, our furniture is customizable, you can choose the design, size,
+            and material to fit your taste and space.
+          </p>
+          <br />
+          <p>
+            In addition to our commitment to building strong and durable
+            furniture, we also prioritize sustainability and environmental
+            responsibility. All of our wood is sourced from responsibly managed
+            forests and we use ecofriendly finishes and materials whenever
+            possible.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="shop">
+      <h1>
+        <a href="shop.html"> Our Catalog <i class="fas fa-angle-right"></i> </a>
+      </h1>
+      <div>
+        <div class="gallery-container">
+          <div class="gallery">
+            <a href="shop.html#of"
+              ><div class="gallery-element gallery-img-1">
+                <p>
+                  Outdoor <br />
+                  Furniture
+                </p>
+              </div></a
+            >
+            <a href="shop.html#cs"
+              ><div class="gallery-element gallery-img-2">
+                <p>
+                  Chairs & <br />
+                  Seating
+                </p>
+              </div></a
+            >
+            <a href="shop.html#t"
+              ><div class="gallery-element gallery-img-3">
+                <p>Tables</p>
+              </div></a
+            >
+            <a href="shop.html#bf"
+              ><div class="gallery-element gallery-img-4">
+                <p>
+                  Bedroom <br />
+                  Furniture
+                </p>
+              </div></a
+            >
+            <a href="shop.html#ss"
+              ><div class="gallery-element gallery-img-5">
+                <p>
+                  Storage & <br />
+                  Shelving
+                </p>
+              </div></a
+            >
+            <a href="shop.html#da"
+              ><div class="gallery-element gallery-img-6">
+                <p>
+                  Decor & <br />
+                  Accessories
+                </p>
+              </div></a
+            >
+            <!-- Add more images as needed -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h1>Hard Woods Portfolio</h1>
+      <div class="button-group filters-button-group">
+        <button class="button is-checked button-all" data-filter="*">
+          all
+        </button>
+        <button class="button" data-filter=".foto">photos</button>
+        <button class="button" data-filter=".video">videos</button>
+        <button class="button" data-filter=".vector">vectors</button>
+      </div>
+
+      <section
+        id="grid-container"
+        class="transitions-enabled fluid masonry js-masonry grid container-gallery"
+      >
+        <article class="foto">
+          <img
+            src="img/fotos/Boom.jpg"
+            onclick="openModal();currentSlide(1)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="vector">
+          <img
+            src="img/vector/vector_02.png"
+            onclick="openModal();currentSlide(18)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Boshuis 1.jpg"
+            onclick="openModal();currentSlide(2)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Boshuis 2.jpg"
+            onclick="openModal();currentSlide(3)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="video">
+          <a href="https://youtu.be/Rlds-CzP0hw">
+            <img
+              src="img/fotos/video_thumbnail.webp"
+              class="hover-shadow cursor"
+              alt=""
+            />
+          </a>
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Boshuis 3.jpg"
+            onclick="openModal();currentSlide(4)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="vector">
+          <img
+            src="img/vector/vector_05.png"
+            onclick="openModal();currentSlide(21)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Hamer.jpg"
+            onclick="openModal();currentSlide(5)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="vector">
+          <img
+            src="img/vector/vector_01.png"
+            onclick="openModal();currentSlide(17)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Markabo 1.jpg"
+            onclick="openModal();currentSlide(6)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="vector">
+          <img
+            src="img/vector/Tree.svg"
+            onclick="openModal();currentSlide(16)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="video">
+          <a href="https://youtu.be/0vjOr_0Bcws">
+            <img
+              src="img/fotos/animatie_thumbnail.webp"
+              class="hover-shadow cursor"
+              alt=""
+            />
+          </a>
+        </article>
+        <article class="vector">
+          <img
+            src="img/vector/vector_04.png"
+            onclick="openModal();currentSlide(20)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Markabo 2.jpg"
+            onclick="openModal();currentSlide(7)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Markabo 3.jpg"
+            onclick="openModal();currentSlide(8)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Meting.jpg"
+            onclick="openModal();currentSlide(9)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Picnic 1.jpg"
+            onclick="openModal();currentSlide(10)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Picnic 2.jpg"
+            onclick="openModal();currentSlide(11)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Vijl.jpg"
+            onclick="openModal();currentSlide(12)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="vector">
+          <img
+            src="img/vector/Acorn.svg"
+            onclick="openModal();currentSlide(22)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Zaag 1.jpg"
+            onclick="openModal();currentSlide(13)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Zaag 2.jpg"
+            onclick="openModal();currentSlide(14)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+        <article class="foto">
+          <img
+            src="img/fotos/Zaagsel.jpg"
+            onclick="openModal();currentSlide(15)"
+            class="img-responsive hover-shadow cursor"
+          />
+        </article>
+      </section>
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div class="mySlides">
+            <img src="img/fotos/Boom.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <img src="img/fotos/Boshuis 1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <img src="img/fotos/Boshuis 2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides">
+            <img src="img/fotos/Boshuis 3.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Hamer.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Markabo 1.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Markabo 2.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Markabo 3.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Meting.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Picnic 1.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Picnic 2.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Vijl.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Zaag 1.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Zaag 2.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/fotos/Zaagsel.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/vector/Tree.svg" style="width: 45%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/vector/vector_01.png" style="width: 60%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/vector/vector_02.png" style="width: 60%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/vector/vector_03.png" style="width: 60%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/vector/vector_04.png" style="width: 60%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/vector/vector_05.png" style="width: 60%" />
+          </div>
+          <div class="mySlides">
+            <img src="img/vector/Acorn.svg" style="width: 50%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Boom.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Boshuis 1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Boshuis 2.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+            />
+          </div>
+
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Boshuis 3.jpg"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Hamer.jpg"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Markabo 1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(7)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Markabo 2.jpg"
+              style="width: 100%"
+              onclick="currentSlide(8)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Markabo 3.jpg"
+              style="width: 100%"
+              onclick="currentSlide(9)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Meting.jpg"
+              style="width: 100%"
+              onclick="currentSlide(9)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Picnic 1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(10)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Picnic 2.jpg"
+              style="width: 100%"
+              onclick="currentSlide(11)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Vijl.jpg"
+              style="width: 100%"
+              onclick="currentSlide(12)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Zaag 1.jpg"
+              style="width: 100%"
+              onclick="currentSlide(13)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Zaag 2.jpg"
+              style="width: 100%"
+              onclick="currentSlide(14)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/fotos/Zaagsel.jpg"
+              style="width: 100%"
+              onclick="currentSlide(15)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vector/Tree.svg"
+              style="width: 100%"
+              onclick="currentSlide(16)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vector/vector_01.png"
+              style="width: 100%"
+              onclick="currentSlide(17)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vector/vector_02.png"
+              style="width: 100%"
+              onclick="currentSlide(18)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vector/vector_03.png"
+              style="width: 100%"
+              onclick="currentSlide(19)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vector/vector_04.png"
+              style="width: 100%"
+              onclick="currentSlide(20)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vector/vector_05.png"
+              style="width: 100%"
+              onclick="currentSlide(21)"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/vector/Acorn.svg"
+              style="width: 100%"
+              onclick="currentSlide(22)"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+    integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/nav.js" type="module" defer></script>
+  <script src="js/sidebar.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007714979/custom/page/hack-a-thon-3/masonry.min.min.js"></script>
+  <script src="https://cdn2.hubspot.net/hub/322787/hub_generated/style_manager/1440007849180/custom/page/hack-a-thon-3/isotope.min.js"></script>
+  <script src="/js/portfolio.js"></script>
+  <script src="/js/modal.js"></script>
+  </body>
+  <footer>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <div class="container">
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="footer">
+      <br />
+      <a href="#" id="home-button"><i class="fas fa-angle-up"></i></a>
+      <a class="shop-button" href="shop.html">Shop</a>
+      <br />
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+
+      <br />
+      <a href="https://www.instagram.com/officialhardwoods/"
+        ><i class="fab fa-instagram social"></i
+      ></a>
+    </section>
+  </footer>
+</html>
