@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+
+  --dark-brown: hsl(24, 51%, 24%);
+  --light-brown: hsl(23, 71%, 58%);
+  --hw-gradient: linear-gradient(hsl(24, 51%, 24%), hsl(23, 71%, 58%));
+  --white: hsl(0, 0%, 95%);
+  --dark-gray: hsl(240, 3%, 11%);
+  --light-gray: hsl(240, 24%, 96%);
+  --light-gray-2: hsl(240, 6%, 83%);
+
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Forma DJR Text", sans-serif;
+}
+section img {
+  width: 10vw;
+}
+h1 {
+    font-size: 3rem;
+    font-family: "Bahnschrift", sans-serif;
+
+}
+section div {
+  background: linear-gradient(-45deg,hsl(24, 51%, 24%), hsl(23, 71%, 58%));
+  padding: 2vw;
+  color: var(--white);
+  animation: cs 3s ease-in-out infinite;
+}
+
+@keyframes cs {
+    0% {
+      transform: translateY(1vh);
+    }
+    50% {
+      transform: translateY(-1vh);
+    }
+    100% {
+      transform: translateY(1vh);
+    }
+  }
+
+section a {
+    cursor: pointer;
+    margin: 2vw;
+    text-decoration: none;
+    color: var(--dark-gray);
+}
